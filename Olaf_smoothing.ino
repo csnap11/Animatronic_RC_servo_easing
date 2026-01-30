@@ -44,7 +44,7 @@ void loop() {
   delta_pos = pos_target - pos_current;
   Serial.println(delta_pos);
   vel = delta_pos / ticks;
-  Serial.println(vel);\
+  Serial.println(vel);
 
   //Acceleration section
   accel = ((vel - vel0) / ticks);
